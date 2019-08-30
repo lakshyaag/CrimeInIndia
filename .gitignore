@@ -43,3 +43,6 @@ rsconnect/
 
 #crime.csv
 crime.csv
+
+#pdf
+/*.pdf
