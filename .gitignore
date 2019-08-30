@@ -34,3 +34,12 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+#rsconnect
+rsconnect/
+
+#ipynb
+.ipynb_checkpoints/
+
+#crime.csv
+crime.csv
