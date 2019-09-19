@@ -1,5 +1,5 @@
 # Crime In India
-This project contains data for crime in India for 2016. 
+This project contains data for crime in India for 2016 and a Shiny app to visualise the data.
 The data has been collected from the National Crime Records Bureau of India (NCRB). 
 
 The data includes the **number of incidents** for every type of crime recognized under the **Indian Penal Code (IPC)** for every state in India.
