@@ -22,7 +22,7 @@ crime_list <- unique(crime$crime)
 # List of states
 state_list <- unique(crime$state)
 
-#Overview data
+# Overview data
 overview_data <- crime %>% group_by(state) %>% filter(crime == 'Total Cognizable IPC Crime')
 
 # IPC Table
@@ -86,6 +86,8 @@ ui <- fluidPage(theme = shinytheme('flatly'),
                         h2('Overview of Crimes'),
                         p('This chart shows the total number of cognizable IPC crimes in every state, sorted by number of incidents'),
                         DT::dataTableOutput('stateOverviewTable')
+                        
+                        
                     ),
                     # Overivew
                     mainPanel(

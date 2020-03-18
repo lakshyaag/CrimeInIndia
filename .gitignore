@@ -41,8 +41,6 @@ rsconnect/
 #ipynb
 .ipynb_checkpoints/
 
-#crime.csv
-crime.csv
 
 #pdf
 /*.pdf
